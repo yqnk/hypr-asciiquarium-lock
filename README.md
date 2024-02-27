@@ -14,6 +14,7 @@ If any of these dependencies are not installed, the script will display an appro
 ## Install
 
 ### Raw install
+
 ```bash
 git clone git@github.com:yqnk/wl-asciiquarium-lock.git
 cd wl-asciiquarium-lock
@@ -23,3 +24,14 @@ Then to execute the script:
 ```bash
 ./wl-asciiquarium-lock.sh
 ```
+
+## Usage
+
+```bash
+wl-asciiquarium-lock [OPTIONS]
+```
+
+Use anything as an option, such as :
+- `-s` to enable screensaver,
+- `-t` to make the background transparent if you are using [asciiquarium-transparent-git](https://aur.archlinux.org/packages/asciiquarium-transparent-git),
+- ...
