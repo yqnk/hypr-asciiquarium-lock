@@ -51,11 +51,15 @@ if [ -z "$swaylock_config" ]; then
     exit 1
 fi
 
-# Check if swaylock config file exists
-if [ ! -f "$swaylock_config" ]; then
+# Resolve symbolic links
+# swaylock_config=$(readlink -e "$swaylock_config")
+
+# Check if the resolved file exists
+if [ ! -e "$swaylock_config" ]; then
     echo "swaylock config file not found at specified path: $swaylock_config"
     exit 1
 fi
+
 
 # Check for dependencies
 if ! command -v asciiquarium &> /dev/null; then
