@@ -1,4 +1,4 @@
-# wl-asciiquarium-lock
+# hypr-asciiquarium-lock
 Quick shell script is designed to lock your screen using SwayLock and display an ASCII aquarium in the background while your screen is locked.
 
 ## Dependencies
