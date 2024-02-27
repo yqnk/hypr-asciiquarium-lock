@@ -39,8 +39,16 @@ Then to execute the script:
 wl-asciiquarium-lock --config <file> [-OPTIONS]
 ```
 
-### OPTIONS
+### Options
+
+#### Necessary
+
+Use `--config <file>` to specify where swaylock config file is.
+
+#### Optional
+
 Use anything as an option, such as :
 - `-s` to enable screensaver,
 - `-t` to make the background transparent if you are using [asciiquarium-transparent-git](https://aur.archlinux.org/packages/asciiquarium-transparent-git),
 - ...
+Refer to [asciiquarium's official repository](https://github.com/cmatsuoka/asciiquarium) for more information.
