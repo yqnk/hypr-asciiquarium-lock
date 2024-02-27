@@ -11,11 +11,15 @@ Before using this script, make sure the following dependencies are installed on 
 
 If any of these dependencies are not installed, the script will display an appropriate error message and exit.
 
-## Usage
+## Install
 
-Ensure that this script has execute permissions.
-
-### Raw usage
+### Raw install
 ```bash
-chmod +x ascii_aquarium_lock.sh
+git clone git@github.com:yqnk/wl-asciiquarium-lock.git
+cd wl-asciiquarium-lock
+chmod +x wl-asciiquarium-lock.sh
+```
+Then to execute the script:
+```bash
+./wl-asciiquarium-lock.sh
 ```
