@@ -14,7 +14,7 @@ optdepends=('asciiquarium: ASCII art aquarium (non-transparent version)'
 
 source=("hypr-asciiquarium-lock.sh")
 
-sha256sums=('b625177233a4080e2830349293b9b0d6b3938747f3629ebfc4ea3a0dcb93f95e  hypr-asciiquarium-lock.sh')
+sha256sums=('b625177233a4080e2830349293b9b0d6b3938747f3629ebfc4ea3a0dcb93f95e')
 
 package() {
     install -Dm755 "$srcdir/wl-asciiquarium-lock.sh" "$pkgdir/usr/bin/wl-asciiquarium-lock"
