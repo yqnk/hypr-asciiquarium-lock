@@ -28,9 +28,10 @@ Then to execute the script:
 ## Usage
 
 ```bash
-wl-asciiquarium-lock [OPTIONS]
+wl-asciiquarium-lock --config <file> [-OPTIONS]
 ```
 
+### OPTIONS
 Use anything as an option, such as :
 - `-s` to enable screensaver,
 - `-t` to make the background transparent if you are using [asciiquarium-transparent-git](https://aur.archlinux.org/packages/asciiquarium-transparent-git),
