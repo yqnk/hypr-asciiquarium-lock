@@ -13,7 +13,15 @@ If any of these dependencies are not installed, the script will display an appro
 
 ## Install
 
-### Raw install
+## Manual Install
+
+```bash
+git clone git@github.com:yqnk/wl-asciiquarium-lock.git
+cd wl-asciiquarium-lock
+makepkg -si
+```
+
+### Raw install (if you dont wan't to build the package)
 
 ```bash
 git clone git@github.com:yqnk/wl-asciiquarium-lock.git
