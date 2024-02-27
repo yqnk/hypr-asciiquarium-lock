@@ -47,7 +47,7 @@ done
 
 # Check if swaylock config is provided
 if [ -z "$swaylock_config" ]; then
-    echo "Please specify the path to the swaylock config file using the --config option."
+    echo "Please specify the path to the swaylock config file using the --config <file> option."
     exit 1
 fi
 
