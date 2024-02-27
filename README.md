@@ -14,15 +14,15 @@ If any of these dependencies are not installed, the script will display an appro
 ## Manual Install
 
 ```bash
-git clone git@github.com:yqnk/wl-asciiquarium-lock.git
-cd wl-asciiquarium-lock
+git clone git@github.com:yqnk/hypr-asciiquarium-lock.git
+cd hypr-asciiquarium-lock
 makepkg -si
 ```
 
 ## Usage
 
 ```bash
-wl-asciiquarium-lock --config <file> [-OPTIONS]
+hypr-asciiquarium-lock --config <file> [-OPTIONS]
 ```
 
 ### Options
