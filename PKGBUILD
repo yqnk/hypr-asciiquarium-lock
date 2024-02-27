@@ -1,9 +1,9 @@
 pkgname=hypr-asciiquarium-lock
 pkgver=1.0
 pkgrel=1
-pkgdesc="An ASCII aquarium lock screen for Hyprland using swalock."
+pkgdesc="Quick shell script is designed to lock your screen using SwayLock and display an ASCII aquarium in the background while your screen is locked."
 arch=('x86_64')
-url="https://github.com/yqnk/wl-asciiquarium-lock"
+url="https://github.com/yqnk/hypr-asciiquarium-lock"
 license=('MIT')
 
 depends=('swaylock')
@@ -17,6 +17,6 @@ source=("hypr-asciiquarium-lock.sh")
 sha256sums=('b625177233a4080e2830349293b9b0d6b3938747f3629ebfc4ea3a0dcb93f95e')
 
 package() {
-    install -Dm755 "$srcdir/wl-asciiquarium-lock.sh" "$pkgdir/usr/bin/wl-asciiquarium-lock"
+    install -Dm755 "$srcdir/hypr-asciiquarium-lock.sh" "$pkgdir/usr/bin/hypr-asciiquarium-lock"
 }
 
